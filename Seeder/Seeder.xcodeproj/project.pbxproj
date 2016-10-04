@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D29523C1DA2963E00016B40 /* CreatAcountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D29523B1DA2963E00016B40 /* CreatAcountViewController.swift */; };
+		1DD6F5FB1D9D4F0100B605DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F5FA1D9D4F0100B605DA /* main.m */; };
+		1DD6F5FE1D9D4F0100B605DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F5FD1D9D4F0100B605DA /* AppDelegate.m */; };
+		1DD6F6011D9D4F0100B605DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6001D9D4F0100B605DA /* ViewController.m */; };
+		1DD6F6041D9D4F0100B605DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6021D9D4F0100B605DA /* Main.storyboard */; };
+		1DD6F6061D9D4F0100B605DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6051D9D4F0100B605DA /* Assets.xcassets */; };
+		1DD6F6091D9D4F0100B605DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6071D9D4F0100B605DA /* LaunchScreen.storyboard */; };
+		1DD6F6141D9D4F0100B605DA /* SeederTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6131D9D4F0100B605DA /* SeederTests.m */; };
+		1DD6F61F1D9D4F0100B605DA /* SeederUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F61E1D9D4F0100B605DA /* SeederUITests.m */; };
+		1DD6F62E1D9D5B1B00B605DA /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F62D1D9D5B1B00B605DA /* loginViewController.swift */; };
+		1DD6F6301D9D5C4400B605DA /* IntroScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F62F1D9D5C4400B605DA /* IntroScreenViewController.swift */; };
+		1DD6F6321D9D604E00B605DA /* Screen Shot 2016-09-29 at 10.39.50 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6311D9D604E00B605DA /* Screen Shot 2016-09-29 at 10.39.50 AM.png */; };
+		1DD6F6341D9D68D400B605DA /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6331D9D68D400B605DA /* WelcomeScreenViewController.swift */; };
+		1DD6F6381D9D6C8B00B605DA /* Screen Shot 2016-09-29 at 11.36.05 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6371D9D6C8B00B605DA /* Screen Shot 2016-09-29 at 11.36.05 AM.png */; };
+		1DD6F63E1D9D788700B605DA /* Screen Shot 2016-09-29 at 12.16.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F63D1D9D788700B605DA /* Screen Shot 2016-09-29 at 12.16.55 PM.png */; };
+		1DD6F6401D9D789100B605DA /* Screen Shot 2016-09-29 at 12.15.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F63F1D9D789100B605DA /* Screen Shot 2016-09-29 at 12.15.04 PM.png */; };
+		1DD6F6421D9D7A1B00B605DA /* Screen Shot 2016-09-29 at 12.34.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6411D9D7A1B00B605DA /* Screen Shot 2016-09-29 at 12.34.06 PM.png */; };
+		1DD6F6441D9D7B5400B605DA /* Screen Shot 2016-09-29 at 12.39.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6431D9D7B5400B605DA /* Screen Shot 2016-09-29 at 12.39.14 PM.png */; };
+		1DD6F6461D9D7BA900B605DA /* Screen Shot 2016-09-29 at 12.40.45 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6451D9D7BA900B605DA /* Screen Shot 2016-09-29 at 12.40.45 PM.png */; };
+		1DD6F6481D9D87AD00B605DA /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6471D9D87AD00B605DA /* ActionViewController.swift */; };
+		1DD6F64A1D9D894300B605DA /* Screen Shot 2016-09-29 at 1.38.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6491D9D894300B605DA /* Screen Shot 2016-09-29 at 1.38.36 PM.png */; };
+		1DD6F64C1D9EAF2A00B605DA /* ActionViewControllertwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F64B1D9EAF2A00B605DA /* ActionViewControllertwo.swift */; };
+		1DD6F6501D9EB66D00B605DA /* SeederLogoImagefix in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F64D1D9EB66D00B605DA /* SeederLogoImagefix */; };
+		1DD6F6541D9EBB2300B605DA /* Screen Shot 2016-09-30 at 11.19.38 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6531D9EBB2300B605DA /* Screen Shot 2016-09-30 at 11.19.38 AM.png */; };
+		1DD6F6561D9EBE3800B605DA /* seederlogonew.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6551D9EBE3800B605DA /* seederlogonew.png */; };
+		1DD6F6581D9EC01000B605DA /* SearchpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6571D9EC01000B605DA /* SearchpageViewController.swift */; };
+		1DD6F65A1D9EC3CC00B605DA /* Screen Shot 2016-09-30 at 11.52.25 AM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6591D9EC3CC00B605DA /* Screen Shot 2016-09-30 at 11.52.25 AM.png */; };
+		1DD6F65C1D9EC63F00B605DA /* Unknown.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F65B1D9EC63F00B605DA /* Unknown.tiff */; };
+		1DD6F65E1D9EC81500B605DA /* Screen Shot 2016-09-30 at 12.19.07 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F65D1D9EC81500B605DA /* Screen Shot 2016-09-30 at 12.19.07 PM.png */; };
+		1DD6F6601D9EC90000B605DA /* MainButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F65F1D9EC90000B605DA /* MainButtonViewController.swift */; };
+		1DD6F6621D9ECB8800B605DA /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6611D9ECB8800B605DA /* VotingViewController.swift */; };
+		1DD6F6641D9ECDE200B605DA /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD6F6631D9ECDE200B605DA /* AccountViewController.swift */; };
+		1DD6F6661D9ED3F300B605DA /* Screen Shot 2016-09-30 at 1.00.53 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6651D9ED3F300B605DA /* Screen Shot 2016-09-30 at 1.00.53 PM.png */; };
+		1DD6F6681D9ED5EF00B605DA /* Screen Shot 2016-09-30 at 1.17.41 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6671D9ED5EF00B605DA /* Screen Shot 2016-09-30 at 1.17.41 PM.png */; };
+		1DD6F66A1D9EDA5F00B605DA /* Screen Shot 2016-09-30 at 1.36.00 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 1DD6F6691D9EDA5F00B605DA /* Screen Shot 2016-09-30 at 1.36.00 PM.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DD6F6101D9D4F0100B605DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD6F5EE1D9D4F0100B605DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD6F5F51D9D4F0100B605DA;
+			remoteInfo = Seeder;
+		};
+		1DD6F61B1D9D4F0100B605DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DD6F5EE1D9D4F0100B605DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DD6F5F51D9D4F0100B605DA;
+			remoteInfo = Seeder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D29523B1DA2963E00016B40 /* CreatAcountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatAcountViewController.swift; sourceTree = "<group>"; };
+		1DD6F5F61D9D4F0100B605DA /* Seeder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seeder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD6F5FA1D9D4F0100B605DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1DD6F5FC1D9D4F0100B605DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1DD6F5FD1D9D4F0100B605DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1DD6F5FF1D9D4F0100B605DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1DD6F6001D9D4F0100B605DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1DD6F6031D9D4F0100B605DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DD6F6051D9D4F0100B605DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DD6F6081D9D4F0100B605DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DD6F60A1D9D4F0100B605DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD6F60F1D9D4F0100B605DA /* SeederTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeederTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD6F6131D9D4F0100B605DA /* SeederTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeederTests.m; sourceTree = "<group>"; };
+		1DD6F6151D9D4F0100B605DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD6F61A1D9D4F0100B605DA /* SeederUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeederUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DD6F61E1D9D4F0100B605DA /* SeederUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SeederUITests.m; sourceTree = "<group>"; };
+		1DD6F6201D9D4F0100B605DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD6F62C1D9D5B1B00B605DA /* Seeder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Seeder-Bridging-Header.h"; sourceTree = "<group>"; };
+		1DD6F62D1D9D5B1B00B605DA /* loginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		1DD6F62F1D9D5C4400B605DA /* IntroScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroScreenViewController.swift; sourceTree = "<group>"; };
+		1DD6F6311D9D604E00B605DA /* Screen Shot 2016-09-29 at 10.39.50 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 10.39.50 AM.png"; path = "../../Screen Shot 2016-09-29 at 10.39.50 AM.png"; sourceTree = "<group>"; };
+		1DD6F6331D9D68D400B605DA /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		1DD6F6371D9D6C8B00B605DA /* Screen Shot 2016-09-29 at 11.36.05 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 11.36.05 AM.png"; path = "../../Screen Shot 2016-09-29 at 11.36.05 AM.png"; sourceTree = "<group>"; };
+		1DD6F63D1D9D788700B605DA /* Screen Shot 2016-09-29 at 12.16.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 12.16.55 PM.png"; path = "../Screen Shot 2016-09-29 at 12.16.55 PM.png"; sourceTree = "<group>"; };
+		1DD6F63F1D9D789100B605DA /* Screen Shot 2016-09-29 at 12.15.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 12.15.04 PM.png"; path = "../Screen Shot 2016-09-29 at 12.15.04 PM.png"; sourceTree = "<group>"; };
+		1DD6F6411D9D7A1B00B605DA /* Screen Shot 2016-09-29 at 12.34.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 12.34.06 PM.png"; path = "../Screen Shot 2016-09-29 at 12.34.06 PM.png"; sourceTree = "<group>"; };
+		1DD6F6431D9D7B5400B605DA /* Screen Shot 2016-09-29 at 12.39.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 12.39.14 PM.png"; path = "../Screen Shot 2016-09-29 at 12.39.14 PM.png"; sourceTree = "<group>"; };
+		1DD6F6451D9D7BA900B605DA /* Screen Shot 2016-09-29 at 12.40.45 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 12.40.45 PM.png"; path = "../Screen Shot 2016-09-29 at 12.40.45 PM.png"; sourceTree = "<group>"; };
+		1DD6F6471D9D87AD00B605DA /* ActionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		1DD6F6491D9D894300B605DA /* Screen Shot 2016-09-29 at 1.38.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-29 at 1.38.36 PM.png"; path = "../Screen Shot 2016-09-29 at 1.38.36 PM.png"; sourceTree = "<group>"; };
+		1DD6F64B1D9EAF2A00B605DA /* ActionViewControllertwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionViewControllertwo.swift; sourceTree = "<group>"; };
+		1DD6F64D1D9EB66D00B605DA /* SeederLogoImagefix */ = {isa = PBXFileReference; lastKnownFileType = file; name = SeederLogoImagefix; path = ../SeederLogoImagefix; sourceTree = "<group>"; };
+		1DD6F6531D9EBB2300B605DA /* Screen Shot 2016-09-30 at 11.19.38 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 11.19.38 AM.png"; path = "../Screen Shot 2016-09-30 at 11.19.38 AM.png"; sourceTree = "<group>"; };
+		1DD6F6551D9EBE3800B605DA /* seederlogonew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = seederlogonew.png; path = ../../Downloads/seederlogonew.png; sourceTree = "<group>"; };
+		1DD6F6571D9EC01000B605DA /* SearchpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchpageViewController.swift; sourceTree = "<group>"; };
+		1DD6F6591D9EC3CC00B605DA /* Screen Shot 2016-09-30 at 11.52.25 AM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 11.52.25 AM.png"; path = "../Screen Shot 2016-09-30 at 11.52.25 AM.png"; sourceTree = "<group>"; };
+		1DD6F65B1D9EC63F00B605DA /* Unknown.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = Unknown.tiff; path = ../Unknown.tiff; sourceTree = "<group>"; };
+		1DD6F65D1D9EC81500B605DA /* Screen Shot 2016-09-30 at 12.19.07 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 12.19.07 PM.png"; path = "../Screen Shot 2016-09-30 at 12.19.07 PM.png"; sourceTree = "<group>"; };
+		1DD6F65F1D9EC90000B605DA /* MainButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButtonViewController.swift; sourceTree = "<group>"; };
+		1DD6F6611D9ECB8800B605DA /* VotingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
+		1DD6F6631D9ECDE200B605DA /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1DD6F6651D9ED3F300B605DA /* Screen Shot 2016-09-30 at 1.00.53 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 1.00.53 PM.png"; path = "../../Screen Shot 2016-09-30 at 1.00.53 PM.png"; sourceTree = "<group>"; };
+		1DD6F6671D9ED5EF00B605DA /* Screen Shot 2016-09-30 at 1.17.41 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 1.17.41 PM.png"; path = "../Screen Shot 2016-09-30 at 1.17.41 PM.png"; sourceTree = "<group>"; };
+		1DD6F6691D9EDA5F00B605DA /* Screen Shot 2016-09-30 at 1.36.00 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Screen Shot 2016-09-30 at 1.36.00 PM.png"; path = "../Screen Shot 2016-09-30 at 1.36.00 PM.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DD6F5F31D9D4F0100B605DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F60C1D9D4F0100B605DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F6171D9D4F0100B605DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DD6F5ED1D9D4F0100B605DA = {
+			isa = PBXGroup;
+			children = (
+				1DD6F6691D9EDA5F00B605DA /* Screen Shot 2016-09-30 at 1.36.00 PM.png */,
+				1DD6F6671D9ED5EF00B605DA /* Screen Shot 2016-09-30 at 1.17.41 PM.png */,
+				1DD6F65D1D9EC81500B605DA /* Screen Shot 2016-09-30 at 12.19.07 PM.png */,
+				1DD6F65B1D9EC63F00B605DA /* Unknown.tiff */,
+				1DD6F6591D9EC3CC00B605DA /* Screen Shot 2016-09-30 at 11.52.25 AM.png */,
+				1DD6F6551D9EBE3800B605DA /* seederlogonew.png */,
+				1DD6F6531D9EBB2300B605DA /* Screen Shot 2016-09-30 at 11.19.38 AM.png */,
+				1DD6F64D1D9EB66D00B605DA /* SeederLogoImagefix */,
+				1DD6F6491D9D894300B605DA /* Screen Shot 2016-09-29 at 1.38.36 PM.png */,
+				1DD6F6471D9D87AD00B605DA /* ActionViewController.swift */,
+				1DD6F6451D9D7BA900B605DA /* Screen Shot 2016-09-29 at 12.40.45 PM.png */,
+				1DD6F6431D9D7B5400B605DA /* Screen Shot 2016-09-29 at 12.39.14 PM.png */,
+				1DD6F6411D9D7A1B00B605DA /* Screen Shot 2016-09-29 at 12.34.06 PM.png */,
+				1DD6F63F1D9D789100B605DA /* Screen Shot 2016-09-29 at 12.15.04 PM.png */,
+				1DD6F63D1D9D788700B605DA /* Screen Shot 2016-09-29 at 12.16.55 PM.png */,
+				1DD6F62D1D9D5B1B00B605DA /* loginViewController.swift */,
+				1DD6F5F81D9D4F0100B605DA /* Seeder */,
+				1DD6F6121D9D4F0100B605DA /* SeederTests */,
+				1DD6F61D1D9D4F0100B605DA /* SeederUITests */,
+				1DD6F5F71D9D4F0100B605DA /* Products */,
+				1DD6F62C1D9D5B1B00B605DA /* Seeder-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		1DD6F5F71D9D4F0100B605DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6F5F61D9D4F0100B605DA /* Seeder.app */,
+				1DD6F60F1D9D4F0100B605DA /* SeederTests.xctest */,
+				1DD6F61A1D9D4F0100B605DA /* SeederUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DD6F5F81D9D4F0100B605DA /* Seeder */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6F5FC1D9D4F0100B605DA /* AppDelegate.h */,
+				1DD6F5FD1D9D4F0100B605DA /* AppDelegate.m */,
+				1DD6F5FF1D9D4F0100B605DA /* ViewController.h */,
+				1DD6F6001D9D4F0100B605DA /* ViewController.m */,
+				1DD6F6021D9D4F0100B605DA /* Main.storyboard */,
+				1D29523B1DA2963E00016B40 /* CreatAcountViewController.swift */,
+				1DD6F6631D9ECDE200B605DA /* AccountViewController.swift */,
+				1DD6F6611D9ECB8800B605DA /* VotingViewController.swift */,
+				1DD6F65F1D9EC90000B605DA /* MainButtonViewController.swift */,
+				1DD6F6571D9EC01000B605DA /* SearchpageViewController.swift */,
+				1DD6F64B1D9EAF2A00B605DA /* ActionViewControllertwo.swift */,
+				1DD6F6371D9D6C8B00B605DA /* Screen Shot 2016-09-29 at 11.36.05 AM.png */,
+				1DD6F6331D9D68D400B605DA /* WelcomeScreenViewController.swift */,
+				1DD6F6311D9D604E00B605DA /* Screen Shot 2016-09-29 at 10.39.50 AM.png */,
+				1DD6F62F1D9D5C4400B605DA /* IntroScreenViewController.swift */,
+				1DD6F6651D9ED3F300B605DA /* Screen Shot 2016-09-30 at 1.00.53 PM.png */,
+				1DD6F6051D9D4F0100B605DA /* Assets.xcassets */,
+				1DD6F6071D9D4F0100B605DA /* LaunchScreen.storyboard */,
+				1DD6F60A1D9D4F0100B605DA /* Info.plist */,
+				1DD6F5F91D9D4F0100B605DA /* Supporting Files */,
+			);
+			path = Seeder;
+			sourceTree = "<group>";
+		};
+		1DD6F5F91D9D4F0100B605DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6F5FA1D9D4F0100B605DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DD6F6121D9D4F0100B605DA /* SeederTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6F6131D9D4F0100B605DA /* SeederTests.m */,
+				1DD6F6151D9D4F0100B605DA /* Info.plist */,
+			);
+			path = SeederTests;
+			sourceTree = "<group>";
+		};
+		1DD6F61D1D9D4F0100B605DA /* SeederUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DD6F61E1D9D4F0100B605DA /* SeederUITests.m */,
+				1DD6F6201D9D4F0100B605DA /* Info.plist */,
+			);
+			path = SeederUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DD6F5F51D9D4F0100B605DA /* Seeder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD6F6231D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "Seeder" */;
+			buildPhases = (
+				1DD6F5F21D9D4F0100B605DA /* Sources */,
+				1DD6F5F31D9D4F0100B605DA /* Frameworks */,
+				1DD6F5F41D9D4F0100B605DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seeder;
+			productName = Seeder;
+			productReference = 1DD6F5F61D9D4F0100B605DA /* Seeder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DD6F60E1D9D4F0100B605DA /* SeederTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD6F6261D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "SeederTests" */;
+			buildPhases = (
+				1DD6F60B1D9D4F0100B605DA /* Sources */,
+				1DD6F60C1D9D4F0100B605DA /* Frameworks */,
+				1DD6F60D1D9D4F0100B605DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD6F6111D9D4F0100B605DA /* PBXTargetDependency */,
+			);
+			name = SeederTests;
+			productName = SeederTests;
+			productReference = 1DD6F60F1D9D4F0100B605DA /* SeederTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DD6F6191D9D4F0100B605DA /* SeederUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DD6F6291D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "SeederUITests" */;
+			buildPhases = (
+				1DD6F6161D9D4F0100B605DA /* Sources */,
+				1DD6F6171D9D4F0100B605DA /* Frameworks */,
+				1DD6F6181D9D4F0100B605DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DD6F61C1D9D4F0100B605DA /* PBXTargetDependency */,
+			);
+			name = SeederUITests;
+			productName = SeederUITests;
+			productReference = 1DD6F61A1D9D4F0100B605DA /* SeederUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DD6F5EE1D9D4F0100B605DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Office_Mac1;
+				TargetAttributes = {
+					1DD6F5F51D9D4F0100B605DA = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1DD6F60E1D9D4F0100B605DA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1DD6F5F51D9D4F0100B605DA;
+					};
+					1DD6F6191D9D4F0100B605DA = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1DD6F5F51D9D4F0100B605DA;
+					};
+				};
+			};
+			buildConfigurationList = 1DD6F5F11D9D4F0100B605DA /* Build configuration list for PBXProject "Seeder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DD6F5ED1D9D4F0100B605DA;
+			productRefGroup = 1DD6F5F71D9D4F0100B605DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DD6F5F51D9D4F0100B605DA /* Seeder */,
+				1DD6F60E1D9D4F0100B605DA /* SeederTests */,
+				1DD6F6191D9D4F0100B605DA /* SeederUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DD6F5F41D9D4F0100B605DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD6F64A1D9D894300B605DA /* Screen Shot 2016-09-29 at 1.38.36 PM.png in Resources */,
+				1DD6F6541D9EBB2300B605DA /* Screen Shot 2016-09-30 at 11.19.38 AM.png in Resources */,
+				1DD6F6091D9D4F0100B605DA /* LaunchScreen.storyboard in Resources */,
+				1DD6F65C1D9EC63F00B605DA /* Unknown.tiff in Resources */,
+				1DD6F6561D9EBE3800B605DA /* seederlogonew.png in Resources */,
+				1DD6F6461D9D7BA900B605DA /* Screen Shot 2016-09-29 at 12.40.45 PM.png in Resources */,
+				1DD6F6381D9D6C8B00B605DA /* Screen Shot 2016-09-29 at 11.36.05 AM.png in Resources */,
+				1DD6F6681D9ED5EF00B605DA /* Screen Shot 2016-09-30 at 1.17.41 PM.png in Resources */,
+				1DD6F6401D9D789100B605DA /* Screen Shot 2016-09-29 at 12.15.04 PM.png in Resources */,
+				1DD6F63E1D9D788700B605DA /* Screen Shot 2016-09-29 at 12.16.55 PM.png in Resources */,
+				1DD6F6061D9D4F0100B605DA /* Assets.xcassets in Resources */,
+				1DD6F65E1D9EC81500B605DA /* Screen Shot 2016-09-30 at 12.19.07 PM.png in Resources */,
+				1DD6F66A1D9EDA5F00B605DA /* Screen Shot 2016-09-30 at 1.36.00 PM.png in Resources */,
+				1DD6F6321D9D604E00B605DA /* Screen Shot 2016-09-29 at 10.39.50 AM.png in Resources */,
+				1DD6F6041D9D4F0100B605DA /* Main.storyboard in Resources */,
+				1DD6F65A1D9EC3CC00B605DA /* Screen Shot 2016-09-30 at 11.52.25 AM.png in Resources */,
+				1DD6F6501D9EB66D00B605DA /* SeederLogoImagefix in Resources */,
+				1DD6F6421D9D7A1B00B605DA /* Screen Shot 2016-09-29 at 12.34.06 PM.png in Resources */,
+				1DD6F6441D9D7B5400B605DA /* Screen Shot 2016-09-29 at 12.39.14 PM.png in Resources */,
+				1DD6F6661D9ED3F300B605DA /* Screen Shot 2016-09-30 at 1.00.53 PM.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F60D1D9D4F0100B605DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F6181D9D4F0100B605DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DD6F5F21D9D4F0100B605DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD6F62E1D9D5B1B00B605DA /* loginViewController.swift in Sources */,
+				1D29523C1DA2963E00016B40 /* CreatAcountViewController.swift in Sources */,
+				1DD6F6011D9D4F0100B605DA /* ViewController.m in Sources */,
+				1DD6F6641D9ECDE200B605DA /* AccountViewController.swift in Sources */,
+				1DD6F5FE1D9D4F0100B605DA /* AppDelegate.m in Sources */,
+				1DD6F6301D9D5C4400B605DA /* IntroScreenViewController.swift in Sources */,
+				1DD6F5FB1D9D4F0100B605DA /* main.m in Sources */,
+				1DD6F6341D9D68D400B605DA /* WelcomeScreenViewController.swift in Sources */,
+				1DD6F6481D9D87AD00B605DA /* ActionViewController.swift in Sources */,
+				1DD6F6601D9EC90000B605DA /* MainButtonViewController.swift in Sources */,
+				1DD6F6621D9ECB8800B605DA /* VotingViewController.swift in Sources */,
+				1DD6F6581D9EC01000B605DA /* SearchpageViewController.swift in Sources */,
+				1DD6F64C1D9EAF2A00B605DA /* ActionViewControllertwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F60B1D9D4F0100B605DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD6F6141D9D4F0100B605DA /* SeederTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DD6F6161D9D4F0100B605DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DD6F61F1D9D4F0100B605DA /* SeederUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DD6F6111D9D4F0100B605DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD6F5F51D9D4F0100B605DA /* Seeder */;
+			targetProxy = 1DD6F6101D9D4F0100B605DA /* PBXContainerItemProxy */;
+		};
+		1DD6F61C1D9D4F0100B605DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DD6F5F51D9D4F0100B605DA /* Seeder */;
+			targetProxy = 1DD6F61B1D9D4F0100B605DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DD6F6021D9D4F0100B605DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD6F6031D9D4F0100B605DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DD6F6071D9D4F0100B605DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DD6F6081D9D4F0100B605DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DD6F6211D9D4F0100B605DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DD6F6221D9D4F0100B605DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DD6F6241D9D4F0100B605DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Seeder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.Seeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Seeder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1DD6F6251D9D4F0100B605DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Seeder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.Seeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Seeder-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1DD6F6271D9D4F0100B605DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeederTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.SeederTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seeder.app/Seeder";
+			};
+			name = Debug;
+		};
+		1DD6F6281D9D4F0100B605DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SeederTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.SeederTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seeder.app/Seeder";
+			};
+			name = Release;
+		};
+		1DD6F62A1D9D4F0100B605DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeederUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.SeederUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Seeder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1DD6F62B1D9D4F0100B605DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SeederUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IBG.SeederUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Seeder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DD6F5F11D9D4F0100B605DA /* Build configuration list for PBXProject "Seeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD6F6211D9D4F0100B605DA /* Debug */,
+				1DD6F6221D9D4F0100B605DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD6F6231D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "Seeder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD6F6241D9D4F0100B605DA /* Debug */,
+				1DD6F6251D9D4F0100B605DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD6F6261D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "SeederTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD6F6271D9D4F0100B605DA /* Debug */,
+				1DD6F6281D9D4F0100B605DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DD6F6291D9D4F0100B605DA /* Build configuration list for PBXNativeTarget "SeederUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DD6F62A1D9D4F0100B605DA /* Debug */,
+				1DD6F62B1D9D4F0100B605DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DD6F5EE1D9D4F0100B605DA /* Project object */;
+}
