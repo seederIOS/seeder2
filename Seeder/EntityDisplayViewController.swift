@@ -1,5 +1,5 @@
 //
-//  CreatAcountViewController.swift
+//  EntityDisplayViewController.swift
 //  Seeder
 //
 //  Created by Office_Mac1 on 10/3/16.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class CreatAcountViewController: UIViewController {
+class EntityDisplayViewController: UIViewController {
 
 }
